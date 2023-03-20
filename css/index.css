@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url("https://cdn.discordapp.com/attachments/1046665588711366693/1086905082920058922/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.button-box {
+  background-color: #ffffff10;
+  padding: 25px 20px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.button {
+  margin: auto;
+  text-decoration: none;
+  color: #ffffff;
+  border: #ffffff solid 1px;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .button-box {
+    flex-direction: column;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .button {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

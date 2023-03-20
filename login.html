@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <script src="js/login.js"></script>
+    <link href="https://cdn.jsdlivr.net/np/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQ3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdlivr.net/np/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form autocomplete="off" action="" method="post">
+                    <h2>Login</h2>
+                    <input type="hidden" id="action" value="login" >
+                    <div class="inputbox">
+                        <input type="text" id="username" value="" placeholder="Username" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" id="password" value="" placeholder="Password" required>
+                    </div>
+
+                    <button type="button" onclick="submitData();">Log in</button>
+                    <div class="register">
+                        <p id="link1">Don't have a account? <a id="link2" href="register.html">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

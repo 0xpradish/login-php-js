@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js"></script>
+    <link href="https://cdn.jsdlivr.net/np/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQ3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdlivr.net/np/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <title>Register</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form autocomplete="off" action="" method="post">
+                    <h2>Register</h2>
+                    <div class="mainContainer">
+                        <input type="hidden" id="action" value="register">
+
+                        <div class="inputbox">
+                            <input type="text" id="name" value="" placeholder="Name" required>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="text" id="username" value="" placeholder="Username" required>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="email" id="Email" value="" placeholder="Email" required>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="password" id="password" value="" placeholder="Password" required>
+                        </div>
+
+                        <button type="button" onclick="submitData();">Register</button>
+                        <div class="register">
+                            <p id="link1">If you already have an account? <a id="link2" href="login.html">Login</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
